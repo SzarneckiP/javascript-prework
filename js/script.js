@@ -5,13 +5,9 @@
     const getMoveName = function(argMoveId){
       if(argMoveId == 1){
         return 'kamień';
-      } else 
-
-      if(argMoveId == 2){
+      } else if(argMoveId == 2){
         return 'papier';
-      } else 
-      
-      if(argMoveId == 3){
+      } else if(argMoveId == 3){
         return 'nożyce';
       } else
       {
@@ -38,17 +34,11 @@
 
       if(argComputerMove == 'kamień' && argPlayerMove == 'papier') {
         printMessage('Tym razem wygrywasz!');
-      } else
-
-      if(argComputerMove == 'nożyce' && argPlayerMove == 'kamień') {
+      } else if(argComputerMove == 'nożyce' && argPlayerMove == 'kamień') {
         printMessage('Tym razem wygrywasz!');
-      } else
-
-      if(argComputerMove == 'papier' && argPlayerMove == 'nożyce') {
+      } else if(argComputerMove == 'papier' && argPlayerMove == 'nożyce') {
         printMessage('Tym razem wygrywasz!');
-      } else
-
-      if(argComputerMove == argPlayerMove) {
+      } else if(argComputerMove == argPlayerMove) {
         printMessage('Remis!');
       } else 
       {
